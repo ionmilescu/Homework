@@ -56,7 +56,7 @@ def show_options():
             ' pentru a adauga o destinatie apasati 2 \n'
             ' pentru a schimba pretul destinatiei apasati 3 \n '
             ' ori orice alt buton pentru a parasi meniul \n ')
-    opt = input('Selectati optiunea: ')
+    opt = int(input('Selectati optiunea: '))
     if opt == 1:
         city = input('Enter a city: ')
         cost = plane_ride_cost(city)
